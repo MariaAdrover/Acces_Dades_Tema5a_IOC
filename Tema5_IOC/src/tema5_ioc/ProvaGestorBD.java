@@ -74,7 +74,7 @@ public class ProvaGestorBD {
         gestor.showEmpsXmlByDeptCodi("d20");        */
         
         //......................................................................
-        /* 6. Substituir el departament "d30" que te 6 empleats pel departament "888"*/
+        /* 6. Substituir el departament "d30" que te 6 empleats pel departament "888"
         System.out.println("......................................................................");
         System.out.println("       SUBSTITUIREM EL DEPARTAMENT d30 PER UN NOU DEPARTAMENT 888");
         System.out.println("......................................................................");
@@ -95,7 +95,7 @@ public class ProvaGestorBD {
         old = gestor.getDeptAmbEmp("d30");
         nou = gestor.getDeptAmbEmp("888");        
         // Mostram les dades del nou departament substitut (888);
-        nou.mostrarDades();
+        nou.mostrarDades();*/
 
         // Tanquem la sessió
         gestor.tancarSessió();
